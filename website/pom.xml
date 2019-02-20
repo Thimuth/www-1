@@ -198,7 +198,7 @@
                             </arguments>
                         </configuration>
                     </execution>-->
-                    <!--<execution>
+                    <execution>
                         <id>build-main-pages</id>
                         <goals>
                             <goal>exec</goal>
@@ -212,7 +212,7 @@
                                 <argument>${webroot.dir}</argument>
                             </arguments>
                         </configuration>
-                    </execution>-->
+                    </execution>
                     <!--<execution>
                         <id>build-search-json</id>
                         <goals>
@@ -256,7 +256,7 @@
         
         <webroot.dir>${project.build.directory}/webroot</webroot.dir>        
         <main.source.dir>${basedir}/main-pages</main.source.dir>
-        <main.theme.dir>${main.source.dir}/ballerina.io-website-theme</main.theme.dir>
+        <main.theme.dir>${main.source.dir}/cellery.io-website-theme</main.theme.dir>
         <two.column.source.dir>${basedir}/two-column-pages</two.column.source.dir>
     </properties>
 </project>
